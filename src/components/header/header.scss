@@ -1,0 +1,102 @@
+@import '../../assets/color.scss';
+
+.header {
+    width: 100%;
+    display: block;
+    font-family: 'Ibarra Real Nova', sans-serif;
+    line-height: 1.4;
+    color: $primary-color-red;
+    z-index: 1;
+}
+
+.header_top {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: end;
+    z-index: 1;
+
+    .logobox {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        letter-spacing: 2.5px;
+            span {
+                padding-left: 10px;
+                padding-right: 10px;
+                img {
+                    height: 40px;
+                }
+            }
+    }
+
+    .contactbox {
+        display: flex;
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-right: 10px;
+            }  
+        p {
+            font-size: small;
+        } 
+    }
+
+    .loginbox {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: $primary-color-red;
+        ul {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            gap: 1rem;
+            li {
+                font-size: 30px;
+                letter-spacing: 1.5;
+                a {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+        p {
+            padding-left: 10px;
+            font-size: x-small;
+        }
+    }
+}
+
+.header_bottom {
+    background-color: $primary-color-pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 1;
+
+    ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        gap: 2.5rem;
+
+        li {
+            font-size: 15px;
+            letter-spacing: 2.5px;
+            a {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+    
